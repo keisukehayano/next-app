@@ -1,0 +1,31 @@
+npm install --save-dev prettier eslint typescript-eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import
+
+npm install --save-dev @storybook/addon-postcss tsconfig-paths-webpack-plugin @babel/plugin-proposal-class-properties @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object tsconfig-paths-webpack-plugin @mdx-js/react
+
+nvm install 16  # メジャーバージョンを指定してインストールする場合
+Downloading and installing node v16.14.0...
+
+$ nvm install --lts  # 最新の LTS 版をインストールする場合
+Installing latest LTS version.
+v16.14.0 is already installed.
+
+$ nvm install node  # 最新バージョンをインストールする場合
+Downloading and installing node v17.7.1...
+
+
+$ nvm current
+v16.14.0
+
+$ node -v
+v16.14.0
+
+
+npm install styled-components
+
+npm install save-dev @types/styled-components
+
+//マテリアルアイコン
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+
+//テスト環境構築
+npm install --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
